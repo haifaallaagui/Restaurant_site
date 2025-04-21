@@ -1,28 +1,43 @@
-# 🧩 Projets Web Combinés – JEE & Angular/FastAPI
+# 🍽️ Restaurant – Site Web
 
-Ce dépôt contient deux projets web distincts :
-
-1. 🏠 **Application de Gestion Immobilière** (Java EE, JSP, Hibernate, MySQL)
-2. 🍽️ **Site Web pour la Restauration** (Angular, FastAPI, MySQL, Adobe XD)
+Une application web moderne pour la gestion d’un restaurant, avec une interface utilisateur dynamique construite en **Angular**, un back-end rapide et performant en **FastAPI**, une base de données relationnelle **MySQL**, et une maquette UI conçue sur **Adobe XD**.
 
 ---
 
-## 🏠 Application de Gestion Immobilière
+## 🎯 Objectif du projet
 
-### 🧰 Stack Technique
+Permettre aux utilisateurs (clients & personnel) de :
+- Consulter le menu du restaurant
+- Réserver une table en ligne
+- Passer des commandes
+- Gérer les commandes et réservations côté administrateur
+- Visualiser les statistiques de vente
 
-- **Backend** : Java EE (Servlets), Hibernate (ORM)
-- **Frontend** : JSP, HTML, CSS
+---
+
+## 🛠️ Technologies utilisées
+
+- **Frontend** : Angular 15+, TypeScript, HTML, SCSS
+- **Backend** : Python FastAPI
 - **Base de données** : MySQL
-- **Serveur** : Apache Tomcat
+- **UI/UX Design** : Adobe XD
+- **Autres** : REST API, JWT Auth, ORM (SQLAlchemy)
 
-### 🔑 Fonctionnalités
+---
 
-- Gestion des utilisateurs (authentification, rôles)
-- Gestion des biens immobiliers (ajout, édition, suppression)
-- Gestion des clients et contrats
-- Suivi des ventes et locations
-- Tableau de bord avec statistiques
+## 🔧 Fonctionnalités principales
 
+### 👨‍🍳 Côté client :
+- Affichage dynamique du menu
+- Réservation de table avec sélection de date/heure
+- Commande en ligne avec panier
+- Interface responsive mobile / desktop
 
+### 🧑‍💼 Côté administrateur :
+- Tableau de bord : commandes, réservations, statistiques
+- Gestion du menu : ajout, modification, suppression
+- Gestion des utilisateurs et des droits d’accès
+- Suivi des réservations et des commandes en temps réel
+
+---
 
